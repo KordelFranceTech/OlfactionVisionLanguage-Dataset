@@ -28,7 +28,7 @@ An open-sourced dataset, dataset builder, and diffusion model for olfaction-visi
 - **Data Format**:
   All sensor streams are synchronized and stored in a standardized JSON / NoSQL format. Metadata includes timestamps, environment labels, and calibration parameters.
 
-- **Total Samples**: _X entries_
+- **Total Samples**: _~5,000_
 - **Environments**: Indoor, outdoor, lab-controlled, and natural settings
 
 ---
