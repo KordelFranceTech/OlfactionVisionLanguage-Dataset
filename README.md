@@ -15,7 +15,6 @@
 
 An open-sourced dataset, dataset builder, and diffusion model for olfaction-vision-language learning.
 
-
 ---
 
 ## Dataset Description
