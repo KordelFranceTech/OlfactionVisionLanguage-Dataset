@@ -7,7 +7,7 @@
 
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC--BY%204.0-blue.svg)](https://creativecommons.org/licenses/by/4.0/)
-[![Colab](https://img.shields.io/badge/Run%20in-Colab-yellow?logo=google-colab)](https://colab.research.google.com/github/kordelfrancetech/multimodal-dataset/blob/main/notebooks/demo.ipynb)
+[![Colab](https://img.shields.io/badge/Run%20in-Colab-yellow?logo=google-colab)](https://colab.research.google.com/drive/1WVXCD70HSZpDbM-HVBiUnwHUffF1740b#scrollTo=jie8WKDQi0yq)
 [![Paper](https://img.shields.io/badge/Research-Paper-red)](https://arxiv.org/abs/2506.00455)
 
 </div>
