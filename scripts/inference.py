@@ -11,11 +11,11 @@ num_labels = len(label_names)
 
 # Load the models
 model = EGNNDiffusionModel(node_dim=1, embed_dim=8)
-model.load_state_dict(torch.load('/content/egnn_state_dict_20250427.pth'))
+model.load_state_dict(torch.load('/models/constrained/egnn_state_dict.pth'))
 model.eval() # Set to evaluation mode if you are not training
 
 conditioner = OlfactoryConditioner(num_labels=num_labels, embed_dim=8)
-conditioner.load_state_dict(torch.load('/content/olfactory_conditioner_state_dict.pth'))
+conditioner.load_state_dict(torch.load('/models/constrained/olfactory_conditioner_state_dict.pth'))
 conditioner.eval() # Set to evaluation mode if you are not training
 
 
@@ -42,12 +42,17 @@ for i in range(0, len(descriptor_list)):
     for descriptor in descriptor_list[i]:
         if descriptor in label_names:
             test_label_vec[label_names.index(descriptor)] = 1
+
+    # Get the SMILES string for each sample
     new_smiles = sample(model, conditioner, label_vec=test_label_vec)
     print(new_smiles)
+
+    # Validate the molecular propertires
     valid, props = validate_molecule(new_smiles)
     print(f"Generated SMILES: {new_smiles}\nValid: {valid}, Properties: {props}")
     if new_smiles != "":
         count += 1
 
+    # Test accuracy
     percent_correct: float = float(count)  / float(len(aroma_vec_list)) * 100.0
     print(f"Percent correct: {percent_correct}")

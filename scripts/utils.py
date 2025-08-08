@@ -8,7 +8,7 @@ from rdkit import RDLogger
 RDLogger.DisableLog('rdApp.*')  # Suppress RDKit warnings
 
 
-# -------- UTILS: Molecule Processing with 3D Coordinates --------
+# UTILS: Molecule Processing with 3D Coordinates
 def smiles_to_graph(smiles):
     mol = Chem.MolFromSmiles(smiles)
     if mol is None:
@@ -56,8 +56,8 @@ def smiles_to_graph(smiles):
         edge_attr=torch.tensor(edge_attrs, dtype=torch.long)
     )
 
-# -------- Load Data --------
-def load_goodscents_subset(filepath="/content/curated_GS_LF_merged_4983.csv",
+# Load Data
+def load_goodscents_subset(filepath="../data/leffingwell-goodscent-merge-dataset.csv",
                            index=200,
                            shuffle=True
                            ):
@@ -216,7 +216,7 @@ def sample_batch(model, conditioner, label_vec, steps=1000, batch_size=4):
 
 
 
-# -------- Validation --------
+# Validation
 def validate_molecule(smiles):
     mol = Chem.MolFromSmiles(smiles)
     if mol is None:
@@ -224,7 +224,7 @@ def validate_molecule(smiles):
     return True, {"MolWt": Descriptors.MolWt(mol), "LogP": Descriptors.MolLogP(mol)}
 
 
-# -------- Testing ----------
+# Testing
 def test_models(test_model, test_conditioner):
     good_count: int = 0
     index: int = int(4983.0 * 0.2)  #take 20% of the dataset for testing

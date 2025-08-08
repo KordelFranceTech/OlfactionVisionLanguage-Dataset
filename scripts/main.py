@@ -8,17 +8,29 @@ from .train import train
 
 # -------- Main --------
 if __name__ == '__main__':
+    # Batch data if desired
     SHOULD_BATCH: bool = False
-    smiles_list, label_map, label_names = load_goodscents_subset(index=500)
+
+    # Load the dataset
+    smiles_list, label_map, label_names = load_goodscents_subset(
+        filepath="../data/leffingwell-goodscent-merge-dataset.csv",
+        index=500,
+        shuffle=True)
     num_labels = len(label_names)
     dataset = []
+
+    # Convert all SMILES to graphs for the dataset
     for smi in smiles_list:
         g = smiles_to_graph(smi)
         if g:
             g.y = torch.tensor(label_map[smi])
             dataset.append(g)
+
+    # Init the models
     model = EGNNDiffusionModel(node_dim=1, embed_dim=8)
     conditioner = OlfactoryConditioner(num_labels=num_labels, embed_dim=8)
+
+    # Begin training
     train(model, conditioner, dataset, epochs=500)
 
     # Test trained model

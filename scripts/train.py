@@ -91,7 +91,7 @@ def train(model, conditioner, dataset, epochs=10):
     return model, conditioner
 
 
-# -------- Generation --------
+# Generation
 def temperature_scaled_softmax(logits, temperature=1.0):
     logits = logits / temperature
     return torch.softmax(logits, dim=0)

@@ -1,0 +1,113 @@
+Aroma,Composition.
+alcoholic,The molecular property 'alcoholic scent' can be explained by the presence of an ethyl/ether O group and the absence of acetal like/methyl groups
+aldehydic,The molecular property 'aldehydic scent' can be explained by the presence of an oxygen atom
+alliaceous,The molecular property 'alliaceous scent' can be explained by the presence of more than one CH2 group that is bonded to two neighbors
+almond,The molecular property 'almond scent' can be explained by the presence of an oxygen atom
+animial,The molecular property 'animal scent' can be explained by the presence of an atom in a ring
+anisic,The molecular property 'anisic scent' can be explained by the presence of more than one O atom
+apple,The molecular property 'apple scent' can be explained by the presence of an ethyl/ether O group
+apricot,The molecular property 'apricot scent' can be explained by the presence of a CH2 group involved in a double bond
+aromatic,The molecular property 'aromatic scent' can be explained by the presence of more than one O atom
+balsamic,The molecular property 'balsamic scent' can be explained by the presence of an atom in a ring
+banana,The molecular property 'banana scent' can be explained by the presence of a C=O double bond and a carboxylic acid derivative/methyl group
+beefy,The molecular property 'beefy scent' can be explained by the presence of an S atom
+berry,The molecular property 'berry scent' can be explained by the presence of a C=O double bond and an ethyl/ether O group
+blackcurrant,The molecular property 'blackcurrant scent' can be explained by its structure
+brandy,The molecular property 'brandy scent' can be explained by its structure
+bread,The molecular property 'bread scent' can be explained by the presence of multiple heterocyclic atoms
+brothy,The molecular property 'brothy scent' can be explained by the presence of hetero O/aromatic/primary carbon groups and an S atom
+burnt,The molecular property 'burnt scent' can be explained by the presence of multiple O atoms that are involved in double bonds
+buttery,The molecular property 'buttery scent' can be explained by the presence of more than one oxygen atom
+cabbage,The molecular property 'cabbage scent' can be explained by the presence of an S atom
+camphoreous,The molecular property 'camphoreous scent' can be explained by the presence of bridged rings/alkane groups and carbonyl groups
+caramellic,The molecular property 'caramellic scent' can be explained by the presence of a carbonyl and more than one O atom
+catty,The molecular property 'catty scent' can be explained by the presence of an S atom
+chamomile,The molecular property 'chamomile scent' can be explained by the presence of a michael acceptor/methyl group and a propyl fragment/ether O group
+cheesy,The molecular property 'cheesy scent' can be explained by the presence of a C atom bonded to two O atoms
+cherry,The molecular property 'cherry scent' can be explained by the presence of an aro- matic/methyl group and an aldehyde/aromatic group. The lack of two CH2 groups separated by any four bonds
+chicken,The molecular property 'chicken scent' can be explained by the presence of an atom bonded to three other atoms
+chocolate,The molecular property 'chocolate scent' can be explained by the presence of multiple heterocyclic atoms
+cinnamon,The molecular property 'cinnamon scent' can be explained by the presence of an oxygen atom
+citrus,The molecular property 'citrus scent' can be explained by the presence of an oxygen atom
+cocoa,The molecular property 'cocoa scent' can be explained by the presence of an oxygen atom
+coconut,The molecular property 'coconut scent' can be explained by the presence of an n-butyl group and a carbonyl group
+coffee,The molecular property 'coffee scent' can be explained by the presence of an S atom
+cognac,The molecular property 'cognac scent' can be explained by the presence of more than one oxygen atom
+coumarinic,The molecular property 'coumarinic scent' can be explained by the presence of an oxygen atom
+creamy,The molecular property 'creamy scent' can be explained by the presence of a carbonyl and an oxygen
+cucumber,The molecular property 'cucumber scent' can be explained by the structure of the molecule
+dairy,The molecular property 'dairy scent' can be explained by the presence of a C atom bonded to two O atoms
+dry,The molecular property 'dry scent' can be explained by the presence of a C atom bonded to two O atoms
+earthy,The molecular property 'earthy scent' can be explained by the presence of an alkene bond and a hetero N nonbasic/aromatic group
+ethereal,The molecular property 'ethereal scent' can be explained by the presence of an O atom
+fatty,The molecular property 'fatty scent' can be explained by the presence of a heptanyl fragment
+fermented,The molecular property 'fermented scent' can be explained in part by the presence of an atom bonded to two methyl groups
+fishy,The molecular property 'fishy scent' can be explained by the presence of an alkene bond and an N atom
+floral,The molecular property 'floral scent' can be explained by the presence of an O atom bonded to a secondary C
+fresh,The molecular property 'fresh scent' can be explained in terms of its structure
+fruity,The molecular property 'fruity scent' can be explained by the presence of a carbonyl
+garlic,The molecular property 'garlic scent' can be explained by the presence of sulfur atoms
+gasoline,The molecular property 'gasoline scent' can be explained by looking at the structural attributes of the molecule
+grape,The molecular property 'grape scent' can be explained by the presence of a primary amine
+grapefruit,The molecular property 'grapefruit scent' can be explained in part by the presence of an S atom
+grassy,The molecular property 'grassy scent' can be explained by the presence of an oxygen atom
+green,The molecular property 'green scent' can be explained by the presence of an O atom
+hay,The molecular property 'hay scent' can be explained by the presence of a heterocycle and a C=O double bond
+hazlenut,The molecular property 'hazelnut scent' can be explained by the presence of hetero N nonbasic/aromatic/primary carbon groups
+herbal,The molecular property 'herbal scent' can be explained by the presence of a C=O double bond
+honey,The molecular property 'honey scent' can be explained by the presence of an ester
+horseradish,The molecular property 'horseradish scent' can be explained by the presence of an S atom
+jasmine,The molecular property 'jasmine scent' can be explained by the presence of more than two methyl groups
+ketonic,The molecular property 'ketonic scent' can be explained by the presence of an O bonded to a secondary C and iso-propyl
+leafy,The molecular property 'leafy scent' can be explained by the presence of more than one O atom
+leathery,The molecular property 'leathery scent' can be explained by the presence of phenol
+lemon,The molecular property 'lemon scent' can be explained by the presence of more than two methyl groups
+malty,The molecular property 'malty scent' can be explained by the presence of an atom bonded to two methyl groups
+meaty,The molecular property 'meaty scent' can be explained by the presence of an S atom and the absence of an alkene
+medicinal,The molecular property 'medicinal scent' can be explained by the presence of phenol and the presence of a hydroxy oxygen (OH). The lack of an O with at least two chain bonds
+melon,The molecular property 'melon scent' can be explained by the presence of an O atom and an alkene bond
+metallic,The molecular property 'metallic scent' can be explained by the presence of an aromatic atom and a C=O double bond
+milky,The molecular property 'milky scent' can be explained by the presence of a molecule containing a C atom bonded to two O atoms. The lack of an alkyne group
+mint,The molecular property 'mint scent' can be explained by the presence of a carbonyl
+mushroom,The molecular property 'mushroom scent' can be explained by the presence of an oxygen atom bonded to a secondary carbon atom
+musk,The molecular property 'musk scent' can be explained by the presence of an atom in a ring and secondary carbon
+musty,The molecular property 'musty scent' can be explained by the presence of an O atom
+nutty,The molecular property 'nutty scent' can be explained by the presence of a hetero N nonbasic/aromatic group
+oily,The molecular property 'oily scent' can be explained by the presence of a heptanyl fragment
+onion,The molecular property 'onion scent' can be explained by the presence of an S and a disulfide/methyl group. The lack of an N
+orange,The molecular property 'orange scent' can be explained by the presence of two CH2 groups separated by any four bonds and an O atom
+orris,The molecular property 'orris scent' can be explained by the presence of tertiary carbon
+peach,The molecular property 'peach scent' can be explained by the presence of an alkene bond
+pear,The molecular property 'pear scent' can be explained by the presence of a C=O double bond
+phenolic,The molecular property 'phenolic scent' can be explained by the presence of phenol
+pine,The molecular property 'pine scent' can be explained by the presence of an atom in a ring and the lack of an alkene/secondary carbon group
+pineapple,The molecular property 'pineapple scent' can be explained by the presence of an ester
+plum,The molecular property 'plum scent' can be explained by the presence of a carbonyl
+popcorn,The molecular property 'popcorn scent' can be explained by the presence of a carbonyl and a hetero N nonbasic/aromatic group. The absence of a carboxylic acid deriva- tive/methyl group
+potato,The molecular property 'potato scent' can be explained by the presence of sulfur
+pungent,The molecular property 'pungent scent' can be explained by the presence of an isothio- cyanate group
+radish,The molecular property 'radish scent' can be explained by the presence of an S atom
+ripe,The molecular property 'ripe scent' can be explained by the presence of an S atom
+roasted,The molecular property 'roasted scent' can be explained by the presence of an S atom
+rose,The molecular property 'rose scent' can be explained by the presence of a C=O double bond and more than two methyl groups
+rum,The molecular property 'rum scent' can be explained by the presence of an oxygen atom with at least two chain bonds
+savory,The molecular property 'savory scent' can be explained by the presence of an S atom
+sharp,The molecular property 'sharp scent' can be explained by the presence of an alkene bond and a C=O double bond
+smoky,The molecular property 'smoky scent' can be explained by the presence of phenol
+solvent,The molecular property 'solvent scent' can be explained by the presence of an oxygen atom
+sour,The molecular property 'sour scent' can be explained by the presence of a C atom bonded to two O atoms
+spicy,The molecular property 'spicy scent' can be explained by the presence of an ether O/methyl group
+strawberry,The molecular property 'strawberry scent' can be explained by the presence of a C-O single bond and an O with at least two chain bonds. Additionally
+sulfrous,The molecular property 'sulfurous scent' can be explained by the presence of an S atom and a hydroxy oxygen (OH) group
+sweet,The molecular property 'sweet scent' can be explained by the presence of a C=O double bond and the absence of a CH3 group separated from a CH2 group by any four bonds
+tea,The molecular property 'tea scent' can be explained by the presence of a C=O double bond and carbonyl
+tobacco,The molecular property 'tobacco scent' can be explained by the presence of multiple aromatic rings and a C atom bonded to two O atoms. The lack of an 8M - 14M ring
+tomato,The molecular property 'tomato scent' can be explained by the presence of an S atom
+tropical,The molecular property 'tropical scent' can be explained by the presence of an S atom and a C atom bonded to two O atoms
+vanilla,The molecular property 'vanilla scent' can be explained by the presence of more than one oxygen atom
+vegetable,The molecular property 'vegetable scent' can be explained by the presence of an S atom and an O atom in the molecule
+violet,The molecular property 'violet scent' can be explained by the presence of a C=O double bond and an alkyne group
+warm,The molecular property 'warm scent' can be explained by the presence of an ether O/methyl group
+waxy,The molecular property 'waxy scent' can be explained by the presence of an n-heptanyl and heptanyl fragment
+winey,The molecular property 'winey scent' can be explained by the presence of a C-O single bond
+woody,The molecular property 'woody scent' can be explained by the presence of a C=O double bond

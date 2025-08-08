@@ -7,7 +7,7 @@ from rdkit import Chem
 from rdkit.Chem import AllChem, Descriptors
 
 
-# -------- UTILS: Molecule Processing with 3D Coordinates --------
+# UTILS: Molecule Processing with 3D Coordinates
 def smiles_to_graph(smiles):
     mol = Chem.MolFromSmiles(smiles)
     if mol is None:
@@ -55,7 +55,7 @@ def smiles_to_graph(smiles):
         edge_attr=torch.tensor(edge_attrs, dtype=torch.long)
     )
 
-# -------- EGNN Layer --------
+# EGNN Layer
 class EGNNLayer(MessagePassing):
     def __init__(self, node_dim):
         super().__init__(aggr='add')
@@ -97,7 +97,7 @@ class EGNNLayer(MessagePassing):
         msg, coord_update = aggr_out
         return x + msg, coord_update
 
-# -------- Time Embedding --------
+# Time Embedding
 class TimeEmbedding(nn.Module):
     def __init__(self, embed_dim):
         super().__init__()
@@ -110,7 +110,7 @@ class TimeEmbedding(nn.Module):
     def forward(self, t):
         return self.net(t.view(-1, 1).float() / 1000)
 
-# -------- Olfactory Conditioning --------
+# Olfactory Conditioning
 class OlfactoryConditioner(nn.Module):
     def __init__(self, num_labels, embed_dim):
         super().__init__()
@@ -119,7 +119,7 @@ class OlfactoryConditioner(nn.Module):
     def forward(self, labels):
         return self.embedding(labels.float())
 
-# -------- EGNN Diffusion Model --------
+# EGNN Diffusion Model
 class EGNNDiffusionModel(nn.Module):
     def __init__(self, node_dim, embed_dim):
         super().__init__()
