@@ -1,4 +1,4 @@
-# Olfaction-Vision-Language Learning: Diffusion-Graph Models with Dataset
+Olfaction-Vision-Language Learning: Diffusion-Graph Models with Dataset
 ----
 
 <div align="center">
