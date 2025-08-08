@@ -101,5 +101,5 @@ If you use this dataset in your research, please cite it as follows:
 
 ## License
 
-This dataset is released under the [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/) license.
+This dataset is released under the [MIT License](https://opensource.org/license/mit).
 
