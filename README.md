@@ -6,26 +6,27 @@
 **Vision • Olfaction • Language**
 
 
-[![License: CC BY 4.0](https://img.shields.io/badge/License-CC--BY%204.0-blue.svg)](https://creativecommons.org/licenses/by/4.0/)
-[![Colab](https://img.shields.io/badge/Run%20in-Colab-yellow?logo=google-colab)](https://colab.research.google.com/drive/1WVXCD70HSZpDbM-HVBiUnwHUffF1740b#scrollTo=jie8WKDQi0yq)
+[![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](#license)
+[![Colab](https://img.shields.io/badge/Run%20in-Colab-yellow?logo=google-colab)](https://colab.research.google.com/drive/1-VTEvfCZ3FC8PfxeynbLAWErYYkyNjfZ?usp=sharing)
 [![Paper](https://img.shields.io/badge/Research-Paper-red)](https://arxiv.org/abs/2506.00455)
+[![Open in Spaces](https://huggingface.co/datasets/huggingface/badges/resolve/main/open-in-hf-spaces-sm.svg)](https://huggingface.co/spaces)
 
 </div>
 
 
-An open-sourced dataset, dataset builder, and diffusion model for olfaction-vision-language learning.
+An open-sourced dataset, dataset builder, and diffusion model for olfaction-vision-language tasks.
 
 ---
 
 ## Dataset Description
 
 - **Modalities**:
-  - Visual (based on the COCO dataset)
   - Olfactory (based on the GoodScent and Leffingwell datasets)
+  - Visual (based on the COCO dataset)
   - Language (LLM-generated descriptors)
 
 - **Data Format**:
-  All sensor streams are synchronized and stored in a standardized JSON / NoSQL format. Metadata includes timestamps, environment labels, and calibration parameters.
+  All sensor streams are synchronized and stored in a standardized JSON / NoSQL format.
 
 - **Total Samples**: _~5,000_
 - **Environments**: Indoor, outdoor, lab-controlled, and natural settings
