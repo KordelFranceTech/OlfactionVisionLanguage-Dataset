@@ -20,10 +20,7 @@ An open-sourced dataset, dataset builder, and diffusion model for olfaction-visi
 
 ## Dataset Description
 
-- **Modalities**:
-  - Olfactory (based on the GoodScent and Leffingwell datasets)
-  - Visual (based on the COCO dataset)
-  - Language (LLM-generated descriptors)
+- **Modalities**: Olfaction, Vision, Language
 
 - **Data Format**:
   All sensor streams are synchronized and stored in a standardized JSON / NoSQL format.
