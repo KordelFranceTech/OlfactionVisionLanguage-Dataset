@@ -28,13 +28,6 @@ source_datasets:
 - GoodScents
 - LeffingWell
 - COCO
-extra_gated_fields:
-- Name: text
-- Affiliation: text
-- Email: text
-- I understand that this dataset is an experimental dataset generated for multimodal robotics and deep learning research, and that this dataset is provided as is. I understand that this dataset should not be used to make any claims in medical or healthcare applications.: checkbox
-extra_gated_prompt: By clicking on “Access repository” below, you also agree to not attempt to the conditions checked above.
-
 ---
 Olfaction-Vision-Language Learning: Diffusion-Graph Models with Dataset
 ----
