@@ -24,8 +24,6 @@ annotations_creators:
 - machine-generated
 language_creators:
 - expert-created
-language_details:
-- en-US
 source_datasets:
 - GoodScents
 - LeffingWell
