@@ -16,16 +16,35 @@ tags:
 - scent
 - odor
 - odour
-pretty_name: Olfaction-Vision-Language Dat
+pretty_name: Olfaction-Vision-Language Dataset
 size_categories:
 - 10K<n<100K
+annotations_creators:
+- expert-generated
+- machine-generated
+language_creators:
+- expert-created
+language_details:
+- en-US
+pretty_name: OVLM
+source_datasets:
+- GoodScents
+- LeffingWell
+- COCO
+extra_gated_fields:
+- Name: text
+- Affiliation: text
+- Email: text
+- I understand that this dataset is an experimental dataset generated for multimodal robotics and deep learning research, and that this dataset is provided as is. I understand that this dataset should not be used to make any claims in medical or healthcare applications.: checkbox
+extra_gated_prompt: By clicking on “Access repository” below, you also agree to not attempt to the conditions checked above.
+
 ---
 Olfaction-Vision-Language Learning: Diffusion-Graph Models with Dataset
 ----
 
 <div align="center">
 
-**Vision • Olfaction • Language**
+**Olfaction • Vision • Language**
 
 
 [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](#license)
