@@ -85,10 +85,10 @@ source env/bin/activate  # On Windows: .\env\Scripts\activate
 pip install -r requirements.txt
 ```
 
-#### 4. Run Sample Exploration Script
+#### 4. Run Sample Data Generation Notebook
 
 ```bash
-python scripts/visualize_data.py
+jupyter notebook notebooks/Olfaction_Diffusion-Data-Generator.ipynb
 ```
 
 ---
