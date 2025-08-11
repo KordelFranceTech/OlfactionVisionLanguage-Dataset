@@ -26,7 +26,6 @@ language_creators:
 - expert-created
 language_details:
 - en-US
-pretty_name: OVLM
 source_datasets:
 - GoodScents
 - LeffingWell
