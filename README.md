@@ -1,3 +1,25 @@
+---
+license: mit
+task_categories:
+- image-classification
+- image-to-text
+- robotics
+language:
+- en
+tags:
+- chemistry
+- biology
+- robotics
+- olfaction
+- olfactory
+- smell
+- scent
+- odor
+- odour
+pretty_name: Olfaction-Vision-Language Dat
+size_categories:
+- 10K<n<100K
+---
 Olfaction-Vision-Language Learning: Diffusion-Graph Models with Dataset
 ----
 
@@ -99,50 +121,3 @@ If you use this dataset in your research, please cite it as follows:
 ## License
 
 This dataset is released under the [MIT License](https://opensource.org/license/mit).
-
-```yaml
-# Olfaction-Vision-Language Dataset Card  
-language:
-- en
-license: mit
-tags:
-- olfaction
-- vision
-- language
-- multimodal
-- chemistry
-- robotics
-annotations_creators:
-- expert-generated
-- machine-generated
-language_creators:
-- expert-created
-language_details:
-- en-US
-pretty_name: OVLM
-size_categories:
-- 5000
-source_datasets:
-- GoodScents
-- LeffingWell
-- COCO
-task_categories:
-- image-classification
-- image-to-text
-- robotics
-- other
-task_ids:
-- multi-label-image-classification
-- image-captioning
-- task-planning
-- olfaction
-
-
-extra_gated_fields:
-- Name: text
-- Affiliation: text
-- Email: text
-- I understand that this dataset is an experimental dataset generated for multimodal robotics and deep learning research, and that this dataset is provided as is. I understand that this dataset should not be used to make any claims in medical or healthcare applications.: checkbox
-extra_gated_prompt: By clicking on “Access repository” below, you also agree to not attempt to the conditions checked above.
-```
-
