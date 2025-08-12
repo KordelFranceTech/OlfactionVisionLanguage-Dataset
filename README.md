@@ -29,7 +29,7 @@ source_datasets:
 - LeffingWell
 - COCO
 ---
-Olfaction-Vision-Language Dataset
+Olfaction-Vision-Language Learning: A Multimodal Dataset
 ----
 
 <div align="center">
