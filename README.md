@@ -97,7 +97,7 @@ jupyter notebook notebooks/Olfaction_Diffusion-Data-Generator.ipynb
 ## Directory Structure
 
 ```text
-MultimodalDataset/
+OlfactionVisionLanguage-Dataset/
 ├── data/                     # Example data samples
 ├── notebooks/                # Colab-ready notebooks
 ├── requirements.txt          # Python dependencies
