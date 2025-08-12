@@ -29,7 +29,7 @@ source_datasets:
 - LeffingWell
 - COCO
 ---
-Olfaction-Vision-Language Learning: Diffusion-Graph Models with Dataset
+Olfaction-Vision-Language Dataset
 ----
 
 <div align="center">
@@ -45,7 +45,7 @@ Olfaction-Vision-Language Learning: Diffusion-Graph Models with Dataset
 </div>
 
 
-An open-sourced dataset, dataset builder, and diffusion model for olfaction-vision-language tasks.
+An open-sourced dataset and dataset builder for olfaction-vision-language tasks.
 
 ---
 
@@ -99,9 +99,7 @@ jupyter notebook notebooks/Olfaction_Diffusion-Data-Generator.ipynb
 ```text
 MultimodalDataset/
 ├── data/                     # Example data samples
-├── scripts/                  # Data loading and visualization tools
 ├── notebooks/                # Colab-ready notebooks
-├── models/                   # Pre-trained models for immediate use
 ├── requirements.txt          # Python dependencies
 ├── LICENSE                   # Licensing terms of this repository
 └── README.md                 # Overview of repository contributions and usage
