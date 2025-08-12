@@ -61,8 +61,9 @@ An open-sourced dataset, dataset builder, and diffusion model for olfaction-visi
 
 ---
 
-## Running Locally
+## Getting Started
 
+The easiest way to get started is to open the Colab notebook and begin there.
 To explore the dataset locally, follow the steps below:
 
 #### 1. Clone the Repository
