@@ -98,7 +98,7 @@ jupyter notebook notebooks/Olfaction_Diffusion-Data-Generator.ipynb
 
 ```text
 OlfactionVisionLanguage-Dataset/
-├── data/                     # Example data samples
+├── data/                     # Full and partial datasets
 ├── notebooks/                # Colab-ready notebooks
 ├── requirements.txt          # Python dependencies
 ├── LICENSE                   # Licensing terms of this repository
