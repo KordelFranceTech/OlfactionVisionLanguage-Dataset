@@ -69,8 +69,8 @@ To explore the dataset locally, follow the steps below:
 #### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/KordelFranceTech/DiffusionGraphOlfactionModels.git
-cd DiffusionGraphOlfactionModels
+git clone https://github.com/KordelFranceTech/OlfactionVisionLanguage-Dataset.git
+cd OlfactionVisionLanguage-Data
 ````
 
 #### 2. Create a Virtual Environment
