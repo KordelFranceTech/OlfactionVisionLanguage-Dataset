@@ -171,7 +171,9 @@ arXiv:2401.04394, 2024.
 Qian, K. A. Little, M. Andres, B. B. Nguyen, T. Moloy, J. Yasonik,
 J. K. Parker, R. C. Gerkin, J. D. Mainland, and A. B. Wiltschko,
 “A principal odor map unifies diverse tasks in olfactory perception,”
-Science, vol. 381, no. 6661, pp. 999–1006, 2023. [Online].
+Science, vol. 381, no. 6661, pp. 999–1006, 2023.
+
+
 ---
 
 ## Directory Structure
