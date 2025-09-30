@@ -45,7 +45,9 @@ Olfaction-Vision-Language Learning: A Multimodal Dataset
 </div>
 
 
-An open-sourced dataset and dataset builder for olfaction-vision-language tasks.
+An open-sourced dataset and dataset builder for prototyping and exploratory olfaction-vision-language tasks within the AI, robotics, and AR/VR domains.
+Whether this dataset is used for better vision-scent navigation with drones, triangulating the source of an odor in an image, extracting aromas from a scene, or augmenting a VR experience with scent, we hope its release will catalyze further research and encourage the community to contribute to building standardized datasets and evaluation protocols for olfaction-vision-language learning.
+
 
 ---
 
