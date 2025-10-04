@@ -38,7 +38,7 @@ Olfaction-Vision-Language Learning: A Multimodal Dataset
 
 
 [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](#license)
-[![Colab](https://img.shields.io/badge/Run%20in-Colab-yellow?logo=google-colab)](https://colab.research.google.com/drive/1-VTEvfCZ3FC8PfxeynbLAWErYYkyNjfZ?usp=sharing)
+[![Colab](https://img.shields.io/badge/Run%20in-Colab-yellow?logo=google-colab)](https://colab.research.google.com/drive/1Qj0omu1VfO1HVfxL4EY9ybHLOn3UgRub?usp=sharing)
 [![Paper](https://img.shields.io/badge/Research-Paper-red)](https://arxiv.org/abs/2506.00455v3)
 [![Open in Spaces](https://huggingface.co/datasets/huggingface/badges/resolve/main/open-in-hf-spaces-sm.svg)](https://huggingface.co/datasets/kordelfrance/olfaction-vision-language-dataset)
 
@@ -204,6 +204,32 @@ If you use this dataset in your research, please cite it as follows:
       archivePrefix={arXiv},
       primaryClass={cs.RO},
       url={https://arxiv.org/abs/2506.00455v3}, 
+}
+```
+
+Aroma descriptors come from the OpenPOM dataset:
+
+```
+@misc{OpenPOM,
+  author={Aryan Amit Barsainyan and Ritesh Kumar and Pinaki Saha and Michael Schmuker},
+  title={OpenPOM - Open Principal Odor Map},
+  year={2023},
+  note={\url{https://github.com/BioMachineLearning/openpom}},
+}
+```
+...which is based on the paper from Brian K. Lee, et al:
+```
+@article{lee2023,
+	title        = {A principal odor map unifies diverse tasks in olfactory perception},
+	author       = {Brian K. Lee  and Emily J. Mayhew  and Benjamin Sanchez-Lengeling  and Jennifer N. Wei  and Wesley W. Qian  and Kelsie A. Little  and Matthew Andres  and Britney B. Nguyen  and Theresa Moloy  and Jacob Yasonik  and Jane K. Parker  and Richard C. Gerkin  and Joel D. Mainland  and Alexander B. Wiltschko},
+	year         = 2023,
+	journal      = {Science},
+	volume       = 381,
+	number       = 6661,
+	pages        = {999--1006},
+	doi          = {10.1126/science.ade4401},
+	url          = {https://www.science.org/doi/abs/10.1126/science.ade4401},
+	eprint       = {https://www.science.org/doi/pdf/10.1126/science.ade4401},
 }
 ```
 
